@@ -6,7 +6,8 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<properties>
-		<filenet.cpe.install.path>X:/Program Files/IBM/FileNet/ContentEngine</filenet.cpe.install.path>
+		<!-- map this location \\london\C\IBM\FileNet\ContentEngine to z -->
+		<filenet.cpe.install.path>z:/</filenet.cpe.install.path>
 	</properties>
 	<build>
 		<plugins>
