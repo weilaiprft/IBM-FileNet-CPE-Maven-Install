@@ -1,0 +1,79 @@
+mvn deploy:deploy-file -DgroupId="com.ibm.p8" `
+  -DartifactId=Jace `
+  -Dversion="5.5.2" `
+  -Dpackaging=jar `
+  -Dfile=z:/lib/Jace.jar `
+  -DrepositoryId=weilai0451 `
+  -Durl=https://pkgs.dev.azure.com/weilai0451/_packaging/weilai0451/maven/v1
+
+
+
+mvn deploy:deploy-file -DgroupId="com.ibm.p8" `
+  -DartifactId=Jace `
+  -Dversion="5.5.2" `
+  -Dpackaging=jar `
+  -Dfile=z:/lib/Jace.jar `
+  -DrepositoryId=perf `
+  -Durl=http://kansas.tritek.com:8080/nexus/content/repositories/thirdparty/
+
+  
+// pe
+mvn deploy:deploy-file -DgroupId="com.ibm.p8" `
+  -DartifactId=pe `
+  -Dversion="5.5.2" `
+  -Dpackaging=jar `
+  -Dfile=z:/lib/pe.jar `
+  -DrepositoryId=weilai0451 `
+  -Durl=https://pkgs.dev.azure.com/weilai0451/_packaging/weilai0451/maven/v1
+
+
+
+mvn deploy:deploy-file -DgroupId="com.ibm.p8" `
+  -DartifactId=pe `
+  -Dversion="5.5.2" `
+  -Dpackaging=jar `
+  -Dfile=z:/lib/pe.jar `
+  -DrepositoryId=perf `
+  -Durl=http://kansas.tritek.com:8080/nexus/content/repositories/thirdparty/
+
+
+// xlxpScanner
+mvn deploy:deploy-file -DgroupId="com.ibm.p8" `
+  -DartifactId=xlxpScanner `
+  -Dversion="5.5.2" `
+  -Dpackaging=jar `
+  -Dfile=z:/lib/xlxpScanner.jar `
+  -DrepositoryId=weilai0451 `
+  -Durl=https://pkgs.dev.azure.com/weilai0451/_packaging/weilai0451/maven/v1
+
+
+
+mvn deploy:deploy-file -DgroupId="com.ibm.p8" `
+  -DartifactId=xlxpScanner `
+  -Dversion="5.5.2" `
+  -Dpackaging=jar `
+  -Dfile=z:/lib/xlxpScanner.jar `
+  -DrepositoryId=perf `
+  -Durl=http://kansas.tritek.com:8080/nexus/content/repositories/thirdparty/
+
+
+// xlxpScannerUtils
+mvn deploy:deploy-file -DgroupId="com.ibm.p8" `
+  -DartifactId=xlxpScannerUtils `
+  -Dversion="5.5.2" `
+  -Dpackaging=jar `
+  -Dfile=z:/lib/xlxpScannerUtils.jar `
+  -DrepositoryId=weilai0451 `
+  -Durl=https://pkgs.dev.azure.com/weilai0451/_packaging/weilai0451/maven/v1
+
+
+
+mvn deploy:deploy-file -DgroupId="com.ibm.p8" `
+  -DartifactId=xlxpScannerUtils `
+  -Dversion="5.5.2" `
+  -Dpackaging=jar `
+  -Dfile=z:/lib/xlxpScannerUtils.jar `
+  -DrepositoryId=perf `
+  -Durl=http://kansas.tritek.com:8080/nexus/content/repositories/thirdparty/
+
+
